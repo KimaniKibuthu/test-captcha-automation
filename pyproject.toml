@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "test-selenium"
+version = "0.1.0"
+description = "Testing the reading of a kra website"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.24.0"
+requests = "^2.32.3"
+transformers = "^4.44.2"
+opencv-python = "^4.10.0.84"
+numpy = "^2.1.1"
+torch = "^2.4.1"
+pytesseract = "^0.3.13"
+pillow = "^10.4.0"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
